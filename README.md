@@ -17,7 +17,7 @@ Eğlenceli ve etkileşimli bir Türkçe öğrenme uygulaması! Kelime haznesi ge
 ### 1. Projeyi Klonlayın
 
 ```bash
-git clone https://github.com/KULLANICI_ADINIZ/turkce-kurdu.git
+git clone https://github.com/dece-0/turkce-kurdu.git
 cd turkce-kurdu
 ```
 

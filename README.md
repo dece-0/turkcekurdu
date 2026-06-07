@@ -10,7 +10,14 @@
 
 # 
 
+<<<<<<< HEAD
 # \- Vocabulary spelling exercises
+=======
+```bash
+git clone https://github.com/dece-0/turkce-kurdu.git
+cd turkce-kurdu
+```
+>>>>>>> 0dd2d25ea29fb36c5a40186245157469fdcb7d75
 
 # \- Matching games
 

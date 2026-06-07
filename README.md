@@ -1,57 +1,104 @@
-# Türkçe Kurdu
+# \# 🇹🇷 Türkçe Kurdu
 
-Eğlenceli ve etkileşimli bir Türkçe öğrenme uygulaması! Kelime haznesi geliştirme, cümle tamamlama ve telaffuz yeteneklerini destekler.
+# 
 
-## Özellikler
+# An interactive Turkish language learning app for foreigners, inspired by Duolingo.
 
-- Kelime Yazma
-- Eşleştirme Oyunları
-- Boşluk Doldurma
-- Diyalog Tamamlama
-- Sesli Okuma İmkanı (Text-to-Speech)
-- İlerleme Kaydetme ve Can / XP Sistemi
-- Admin Paneli ile İçerik Ekleme (Google Apps Script entegrasyonu)
+# 
 
-## Kurulum ve Çalıştırma
+# \## Features
 
-### 1. Projeyi Klonlayın
+# 
 
-```bash
-git clone https://github.com/KULLANICI_ADINIZ/turkce-kurdu.git
-cd turkce-kurdu
-```
+# \- Vocabulary spelling exercises
 
-### 2. Bağımlılıkları Yükleyin
+# \- Matching games
 
-Proje NPM kullanılarak geliştirilmiştir.
+# \- Fill-in-the-blank sentences
 
-```bash
-npm install
-```
+# \- Dialogue completion
 
-### 3. Çevre Değişkenleri (Environment Variables)
+# \- Text-to-Speech pronunciation support
 
-Projenin Admin Paneli ve Google Sheets entegrasyonu için çevresel değişkenlere (.env dosyasına) ihtiyacı vardır. 
+# \- XP \& lives system
 
-Ana dizinde `.env.local` adlı bir dosya oluşturun ve içini aşağıdaki gibi doldurun:
+# \- Admin panel for content management (Google Sheets integration)
 
-```env
-VITE_ADMIN_USER=senin_kullanici_adin
-VITE_ADMIN_PASS=guclu_bir_sifre
-VITE_GOOGLE_SCRIPT_URL=https://script.google.com/macros/s/...
-```
-*Not: Bu dosya `.gitignore` tarafından izlenmeyeceği için GitHub'da güvenle saklanacaktır.*
+# 
 
-### 4. Geliştirme Sunucusunu Başlatın
+# \## Tech Stack
 
-```bash
-npm run dev
-```
+# 
 
-Uygulamanız varsayılan olarak `http://localhost:3000` (veya Vite tarafından önerilen adreste) çalışmaya başlayacaktır.
+# React · TypeScript · Vite · Tailwind CSS
 
-## Katkıda Bulunma
-Her türlü Issue ve Pull Request kabul edilir. Başlamadan önce lütfen yeni bir dal (branch) oluşturun.
+# 
 
-## Lisans
-MIT
+# \## Getting Started
+
+# 
+
+# \### 1. Clone the repository
+
+# 
+
+# git clone https://github.com/dece-0/turkcekurdu.git
+
+# cd turkcekurdu
+
+# 
+
+# \### 2. Install dependencies
+
+# 
+
+# npm install
+
+# 
+
+# \### 3. Set up environment variables
+
+# 
+
+# Create a `.env.local` file in the root directory:
+
+# 
+
+# VITE\_ADMIN\_USER=your\_admin\_username
+
+# VITE\_ADMIN\_PASS=your\_admin\_password
+
+# VITE\_GOOGLE\_SCRIPT\_URL=your\_google\_apps\_script\_url
+
+# VITE\_GOOGLE\_CSV\_URL=your\_google\_sheets\_csv\_url
+
+# 
+
+# \### 4. Start the development server
+
+# 
+
+# npm run dev
+
+# 
+
+# App runs at http://localhost:3000
+
+# 
+
+# \## Contributing
+
+# 
+
+# Issues and pull requests are welcome.
+
+# Please create a new branch before submitting a PR.
+
+# 
+
+# \## License
+
+# 
+
+# MIT
+
